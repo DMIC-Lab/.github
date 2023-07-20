@@ -74,3 +74,19 @@ Welcome to the Dynamic Medical Imaging and Computing Lab! Research can be an ama
 - [Original UNET Paper](https://arxiv.org/abs/1505.04597)
 - [UNETR](https://ieeexplore-ieee-org.ezproxy.lib.utexas.edu/document/9706678)
 - [SWin UNET](https://arxiv.org/pdf/2111.14791v2.pdf)
+
+### Re-installing NVIDIA drivers and CUDA on Linux
+- Purge Drivers
+  - sudo apt-get remove --purge '^nvidia-.*'
+  - sudo apt-get autoremove
+
+- [CUDA Archive, check pytorch stable versions](https://developer.nvidia.com/cuda-toolkit-archive)
+- Select OS Version and architecture (Usually Ubuntu x86_64)
+- deb(network)
+- run commands up to sudo apt-get -y install cuda
+- run sudo apt-get -y install cuda-XX-X
+  - e.g. sudo apt-get -y install cuda-11-8
+
+If you get a safeboot screen, run systemctl reboot --firmware-setup
+Boot settings, turn off safe boot
+Verify installation with nvidia-smi
