@@ -48,6 +48,7 @@ Welcome to the Dynamic Medical Imaging and Computing Lab! Research can be an ama
 - Python Machine Learning package: TensorFlow
   - To import in Python: `import tensorflow as tf`
   - [Resource on how to write a program using TensorFlow](https://keras.io/api/)
+  - [Learn PyTorch in a Day (25-hour long video)](https://www.youtube.com/watch?v=Z_ikDlimN6A&t=11463s) 
 - XGBoost:
   - [Easy XGBoost tutorial](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/)
   - [Parameter Tuning](https://machinelearningmastery.com/tune-number-size-decision-trees-xgboost-python/)
