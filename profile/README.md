@@ -90,3 +90,7 @@ Welcome to the Dynamic Medical Imaging and Computing Lab! Research can be an ama
 If you get a safeboot screen, run systemctl reboot --firmware-setup
 Boot settings, turn off safe boot
 Verify installation with nvidia-smi
+
+
+### PyQT5 Compatibility Issues
+GUIs in this repository use PyQT5. Please use opencv-python-headless to avoid compatibility issues. 
