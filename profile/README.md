@@ -25,6 +25,7 @@ Welcome to the Dynamic Medical Imaging and Computing Lab! Research can be an ama
 - Ananya (undergrad)
 - Taima (undergrad)
 - Laura (undergrad)
+- Nathan (undergrad)
 
 ## Repo Directory
 - yi-kuan-pft  - COPD Progression Classification with XGBoost
